@@ -1,0 +1,95 @@
+footer{
+    margin-top: calc(100vw * 200 / 1920);
+    display: flex;
+    position: relative;
+    height: calc(100vh * 130 /1080);
+    border-top: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 calc(100vw * 25 / 1920);
+}
+footer .left{
+    display: flex;
+    position: relative;
+}
+footer .left .footerIcon{
+    display: flex;
+    position: relative;
+    width: calc(100vw * 100 / 1920);
+    height: calc(100vh * 100 / 1080);
+    justify-content: center;
+    align-items: center;
+}
+footer .left .footerIcon img{
+    width: calc(100vw * 75 / 1920);
+    height: calc(100vh * 75 / 1080);
+}
+footer .left .mini{
+    display: grid;
+    position: relative;
+    align-items: center;
+    left: calc(100vw * 25 / 1920);
+}
+footer .left .mini .upper{
+    margin: 0;
+    font-weight: 100;
+    font-family: "Hiragino Mincho ProN", serif;
+}
+footer .left .mini .lower{
+    margin: 0;
+}
+footer .right{
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-weight: 900;
+    height: calc(100vh * 100 / 1080);
+    margin-right: 5vw;
+}
+footer .right span{
+    display: flex;
+    position: relative;
+    width: 15vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+footer .right span .top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: black;
+    height: calc(100vw * 60 / 1920);
+    width: calc(100vw * 80 / 1920);
+    font-size: calc(100vw * 27 / 1920);
+    text-decoration: none;
+    top: 0;
+    transition: 0.5s ease;
+}
+footer .right span .top:hover{
+    /* letter-spacing: 4px; */
+    top: -17px;
+    /* font-size: calc(100vw * 30 / 1920); */
+    text-shadow: 0 17px 5px rgba(0, 0, 0, 0.3);
+}
+footer .right li{
+    display: grid;
+    position: relative;
+    height: 100%;
+    width: 3vw;
+    align-items: center;
+}
+footer .right li a{
+    display: flex;
+    color: black;
+    font-size: calc(100vw * 14 / 1920);
+    height: calc(100vw * 33 / 1920);
+    /* text-decoration: none; */
+    align-items: center;
+    transition: 0.5s ease;
+}
+footer .right li a:hover{
+    font-size: calc(100vw * 16 / 1920);
+    letter-spacing: 2px;
+}

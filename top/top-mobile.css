@@ -1,0 +1,176 @@
+html{
+    overflow: hidden;
+    height: calc(100vh * 1080 / 1080);
+}
+body {
+    overflow: hidden;
+    height: calc(100vh * 1080 / 1080);
+}
+
+header{
+    display: flex;
+    position: absolute;
+    top: calc(100vh * 30 / 1920);
+    left: calc(100vw * 15 / 1080);
+    width: calc(100vw * 1870 / 1920);
+    height: calc(100vh * 60 / 667);
+}
+header div{
+    display: flex;
+}
+
+header .headerIcon{
+    display: flex;
+    position: relative;
+    width: calc(100vh * 60 / 667);
+
+    height: calc(100vh * 60 / 667);
+    justify-content: center;
+    align-items: center;
+}
+header .headerIcon img{
+    object-fit: cover;
+    width: calc(100vh * 40 / 667);
+    height: calc(100vh * 40 / 667);
+}
+
+header p{
+    display: grid;
+    position: relative;
+    width: calc(100vw * 290 / 375);
+    height: calc(100vh * 50 / 667);
+    margin: 0;
+    top: calc(100vh * 10 / 1080);
+    margin-left: calc(100vw * 25 / 1920);
+    border-left: calc(100vw * 5 / 1920) solid black;
+    border-right: calc(100vw * 5 / 1920) solid black;
+    text-align: center;
+    align-items: center;
+}
+header p span{
+    font-size: calc(100vw * 20 / 1920);
+}
+header div{
+    display: none;
+}
+/* header div ul{
+    display: grid;
+    align-items: center;
+    margin: 0;
+    padding-left: calc(100vw * 20 / 1920);
+    width: calc(100vw * 325 / 1920);
+}
+header div ul li{
+    display: contents;
+    list-style: none;
+    height: calc(100vh * 50 / 1080);
+}
+header div ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: calc(100vw * 16 / 1920);
+} */
+
+#bear{
+    position: absolute;
+    z-index: -999;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    top: calc(100vh * -10 / 375);
+}
+#bear img{
+    width: calc(100vw * 150 / 375);
+    object-fit: cover;
+}
+
+
+.main{
+    position: relative;
+    /* margin: calc(100vh * 290 / 1080) 0 calc(100vh * 255 / 1080); */
+    margin-top: calc(100vh * 400 / 1080);
+}
+.main h2{
+    font-size: calc(100vw * 100 / 1920);
+    height: calc(100vh * 100 / 1080);
+    margin: 0;
+}
+.main h1{
+    position: relative;
+    font-size: calc(100vw * 350 / 1920);
+    height: calc(100vh * 70 / 667);
+    letter-spacing: calc(100vw * -7 / 1920);
+    margin: 0;
+    font-weight: 900;
+    left: calc(100vw * -70 / 1920);
+}
+.main .space{
+    display: block;
+    height: calc(100vh * 30 / 667);
+}
+.main .under{
+    position: absolute;
+    bottom: calc(100vh * -230 / 667);
+    left: calc(100vw * 15 / 375);
+}
+.main h3{
+    position: relative;
+    margin: 0;
+    font-family: "Hiragino Mincho ProN", serif;
+    font-size: calc(100vh * 20 / 667);
+    /* left: calc(100vw * 100 / 1920); */
+    font-weight: 100;
+}
+.main .mini{
+    display: none;
+    /* position: relative;
+    display: flex;
+    gap: calc(100vw * 76 / 1920);
+    font-size: calc(100vw * 20 / 1920);
+    font-weight: 600; */
+}
+.main .mini .right{
+    text-align: end;
+}
+
+.link{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    height: calc(100vh * 200 / 667);
+    z-index: 999;
+}
+.link a{
+    display: grid;
+    border: 1px solid black;
+    border-radius: 100px;
+    width: calc(100vw * 75 / 375);
+    height: calc(100vh * 75 / 667);
+    max-height: 75px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: 900;
+    transition: 0.5s ease;
+}
+.link a:hover{
+    color: white;
+    background-color: black;
+}
+
+footer {
+    position: absolute;
+    text-align: end;
+    right: calc(100vw * 15 / 375);
+    bottom: calc(100vh * 41 / 1080);
+}
+footer p{
+    display: inline;
+    margin: 0;
+    font-size: calc(100vw * 30 / 1920);
+}

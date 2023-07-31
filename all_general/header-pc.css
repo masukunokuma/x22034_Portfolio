@@ -1,0 +1,87 @@
+header{
+    z-index: 999;
+    display: flex;
+    position: sticky;
+    top: calc(100vh * 30 / 1920);
+    left: calc(100vw * 15 / 1080);
+    width: calc(100vw * 1870 / 1920);
+    height: calc(100vh * 100 / 1080);
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: calc(100vw * 10 / 1920);
+    color: #242424;
+
+    overflow-y: scroll;
+}
+header div{
+    display: flex;
+}
+
+header .headerIcon{
+    display: flex;
+    position: sticky;
+    width: calc(100vw * 100 / 1920);
+    height: calc(100vh * 100 / 1080);
+    justify-content: center;
+    align-items: center;
+}
+header .headerIcon img{
+    width: calc(100vw * 75 / 1920);
+    height: calc(100vh * 75 / 1080);
+}
+
+header p{
+    display: grid;
+    position: relative;
+    width: calc(100vw * 1000 / 1920);
+    height: calc(100vh * 80 / 1080);
+    margin: 0;
+    top: calc(100vh * 10 / 1080);
+    margin-left: calc(100vw * 25 / 1920);
+    border-left: calc(100vw * 5 / 1920) solid black;
+    border-right: calc(100vw * 5 / 1920) solid black;
+    text-align: center;
+    align-items: center;
+}
+header p span{
+    font-size: calc(100vw * 20 / 1920);
+}
+
+header div ul{
+    display: grid;
+    align-items: center;
+    margin: 0;
+    width: calc(100vw * 325 / 1920);
+    padding: 0;
+}
+.about{
+    margin-left: calc(100vw * 20 / 1920);
+}
+header div ul li {
+    /* display: contents; */ /* この行を削除する */
+    list-style: none;
+    height: calc(100vh * 50 / 1080);
+    color: black;
+    display: flex; /* li要素をフレックスボックスとして表示 */
+    align-items: center; /* li要素内の要素を縦方向に中央揃え */
+}
+
+header div ul li a{
+    color: black;
+    height: calc(100vh * 50 / 1080);
+    width: calc(100vw * 325 / 1920);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+/* リンクのホバー時のスタイル */
+header div ul li a:hover {
+    color: white;
+    background-color: black;
+    letter-spacing: calc(100vw * 3 / 1920);
+}
+
+.hamburger-menu{
+    display: none;
+}

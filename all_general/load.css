@@ -1,0 +1,19 @@
+.elm {
+    opacity: 0;
+}
+.elm.show{
+    opacity: 1;
+    animation-name: text-anime;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+}
+@keyframes text-anime {
+    0% {
+        opacity: 0;
+        transform: translateY(15%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}

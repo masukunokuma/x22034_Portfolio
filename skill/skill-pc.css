@@ -1,0 +1,79 @@
+.main{
+    position: absolute;
+    width: 100vw;
+    height: calc(100vh * 880 / 1080);
+    top: 200px;
+}
+.main .title{
+    display: block;
+    position: relative;
+    left: calc(100vw * 70 / 1920);
+    width: calc(100vw * 1780 / 1920);
+}
+.main .title h2{
+    display: flex;
+    margin: 0;
+    height: calc(100vh * 90 / 1080);
+    font-weight: 900;
+    align-items: center;
+}
+.main .up{
+    display: block;
+    font-size: calc(100vw * 75 / 1920);
+    color: #707070;
+    letter-spacing: calc(100vw * -3.75 / 1920);
+}
+.main .title h3{
+    display: block;
+    margin: 0;
+    height: calc(100vh * 50 / 1080);
+    font-family: "Hiragino Mincho ProN", serif;
+    font-size: calc(100vh * 50 / 1080);
+    font-weight: 100;
+    color: #707070;
+}
+.skill{
+    display: grid;
+    position: relative;
+    top: calc(100vh * 100 / 1080);
+    width: calc(100vw * 1780 / 1920);
+    left: calc(100vw * 70 / 1920);
+    justify-content: center;
+    align-items: center;
+    gap: calc(100vh * 25 / 1080);
+}
+.skill .box{
+    display: flex;
+    width: calc(100vw * 1100 / 1920);
+    justify-content: space-between;
+}
+.skill .upper{
+    position: relative;
+    left: calc(100vw * -112 / 1920);
+}
+.skill .lower{
+    position: relative;
+    right: calc(100vw * -112 / 1920);
+}
+.skill span{
+    display: flex;
+    margin: 0;
+    width: calc(100vw * 230 / 1920);
+    height: calc(100vw * 230 / 1920);
+    font-size: calc(100vh * 50 / 1080);
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    border-radius: 500px;
+    color: white;
+    background: rgba(50, 50, 50, 0.5
+    );
+    transition: 0.5s ease;
+    animation-delay: 0.2s;
+}
+.skill span:hover{
+    color: black;
+    font-size: calc(100vh * 60 / 1080);
+    background: white;
+}

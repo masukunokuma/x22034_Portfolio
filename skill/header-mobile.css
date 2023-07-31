@@ -1,0 +1,55 @@
+html{
+    overflow: hidden;
+    height: calc(100vh * 1080 / 1080);
+}
+body {
+    overflow: hidden;
+    height: calc(100vh * 1080 / 1080);
+}
+
+header{
+    display: flex;
+    position: absolute;
+    top: calc(100vh * 30 / 1920);
+    left: calc(100vw * 15 / 1080);
+    width: calc(100vw * 1870 / 1920);
+    height: calc(100vh * 60 / 667);
+}
+header div{
+    display: flex;
+}
+
+header .headerIcon{
+    display: flex;
+    position: relative;
+    width: calc(100vh * 60 / 667);
+
+    height: calc(100vh * 60 / 667);
+    justify-content: center;
+    align-items: center;
+}
+header .headerIcon img{
+    object-fit: cover;
+    width: calc(100vh * 40 / 667);
+    height: calc(100vh * 40 / 667);
+}
+
+header .headerdiv p{
+    display: grid;
+    position: relative;
+    width: calc(100vw * 230 / 375);
+    height: calc(100vh * 50 / 667);
+    margin: 0;
+    top: calc(100vh * 10 / 1080);
+    margin-left: calc(100vw * 25 / 1920);
+    border-left: calc(100vw * 5 / 1920) solid black;
+    border-right: calc(100vw * 5 / 1920) solid black;
+    text-align: center;
+    align-items: center;
+}
+header .headerdiv p span{
+    font-size: calc(100vw * 20 / 1920);
+}
+.headerdiv, .bun{
+    display: none;
+}
