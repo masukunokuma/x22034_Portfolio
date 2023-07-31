@@ -169,7 +169,8 @@ html{
 .work span .video-container .project-movie{
     object-fit: cover;
     height: 50vh;
-    width: 65vw;
+    width: 960px;
+    height: 540px;
 }
 .work span a {
     display: inline-block;
