@@ -166,7 +166,7 @@ html{
     border-radius: calc(100vw * 40 / 1920);
     margin: 5vh 0;
 }
-.work span .video-container iframe{
+.work span .video-container .project-movie{
     object-fit: cover;
     height: 50vh;
     width: 65vw;
